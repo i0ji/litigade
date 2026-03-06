@@ -1,7 +1,7 @@
 Website from the layout portfolio.
 Build using:
 
-- gh-pages - https://i0ji.github.io/sm_litigade/
+- gh-pages - https://i0ji.github.io/litigade/
 - webpack:<br>
   html-webpack-plugin<br>
   webpack-cli<br>
