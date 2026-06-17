@@ -9,12 +9,14 @@ minimumReleaseAgeExclude:
   - ws@8.20.1
   - uuid@11.1.1
   - qs@6.15.2
+  - shell-quote@1.8.4
+  - launch-editor@2.14.1
 
 overrides:
   qs@>=6.11.1 <=6.15.1: 6.15.2
-  
+
   uuid@<11.1.1: 11.1.1
-  
+
   path-to-regexp@<0.1.13: '>=0.1.13'
   brace-expansion@<1.1.13: '>=1.1.13'
   brace-expansion@>=4.0.0 <5.0.5: '>=5.0.5'
