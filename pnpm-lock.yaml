@@ -18,6 +18,7 @@ overrides:
   follow-redirects@<=1.15.11: '>=1.16.0'
   uuid@<14.0.0: '>=14.0.0'
   postcss@<8.5.10: '>=8.5.10'
+  nanoid@<3.3.18: ^3.3.18
 
 importers:
 
@@ -45,11 +46,11 @@ importers:
         specifier: ^2.10.2
         version: 2.10.2(webpack@5.109.2)
       sass:
-        specifier: ^1.102.0
-        version: 1.102.0
+        specifier: ^1.103.1
+        version: 1.103.1
       sass-loader:
         specifier: ^17.0.0
-        version: 17.0.0(sass@1.102.0)(webpack@5.109.2)
+        version: 17.0.0(sass@1.103.1)(webpack@5.109.2)
       webpack:
         specifier: ^5.109.2
         version: 5.109.2(clean-css@5.3.3)(html-minifier-terser@6.1.0)(postcss@8.5.23)(webpack-cli@7.2.2)
@@ -1304,8 +1305,8 @@ packages:
     resolution: {integrity: sha512-2eznPJP8z2BFLX50tf0LuODrpINqP1RVIm/CObbTcBRITQgmC/TjcREF1NeTBzIcR5XO/ukWo+YHOjBbFwIupg==}
     hasBin: true
 
-  nanoid@3.3.16:
-    resolution: {integrity: sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==}
+  nanoid@3.3.18:
+    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1600,8 +1601,8 @@ packages:
       webpack:
         optional: true
 
-  sass@1.102.0:
-    resolution: {integrity: sha512-NSOyTnaQF7rTAEOtI2fwb386vL+akyiQLBZu8Na7hXCb+umJy0GAqlcMIaqACZ6Z1VgTBS4K9PG6B3IdjHGJsw==}
+  sass@1.103.1:
+    resolution: {integrity: sha512-9icZURbP51S6S0QGoyaeqk9uB06GNWxsFYWfH5RgpFgqK5FA8tJcM3AdVxrZEVJ7dz+L87nG95gBKf4VuaMHGw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -3206,7 +3207,7 @@ snapshots:
       dns-packet: 5.6.1
       thunky: 1.1.0
 
-  nanoid@3.3.16: {}
+  nanoid@3.3.18: {}
 
   negotiator@0.6.3: {}
 
@@ -3354,7 +3355,7 @@ snapshots:
 
   postcss@8.5.23:
     dependencies:
-      nanoid: 3.3.16
+      nanoid: 3.3.18
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -3451,12 +3452,12 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@17.0.0(sass@1.102.0)(webpack@5.109.2):
+  sass-loader@17.0.0(sass@1.103.1)(webpack@5.109.2):
     optionalDependencies:
-      sass: 1.102.0
+      sass: 1.103.1
       webpack: 5.109.2(clean-css@5.3.3)(html-minifier-terser@6.1.0)(postcss@8.5.23)(webpack-cli@7.2.2)
 
-  sass@1.102.0:
+  sass@1.103.1:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
